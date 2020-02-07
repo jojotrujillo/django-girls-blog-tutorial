@@ -1,3 +1,4 @@
+#https://tutorial.djangogirls.org/en/deploy/#starting-our-git-repository
 *.pyc
 *~
 /.idea
