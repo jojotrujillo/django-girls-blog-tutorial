@@ -13,6 +13,14 @@ class TestAddPost(unittest.TestCase):
         cls.driver = webdriver.Edge('C:\\Users\\JordonTrujillo\\Documents\\temp\\web-application-' +
                                     'development-isqa-3900\\edgedriver_win64\\msedgedriver.exe')
         cls.driver.maximize_window()
+        cls.driver.get('http://127.0.0.1:8000/admin')
+        elem = cls.driver.find_element_by_id('id_username')
+        elem.send_keys('instructor')
+        elem = cls.driver.find_element_by_id('id_password')
+        elem.send_keys('maverick1a')
+        time.sleep(4)
+        elem.send_keys(Keys.RETURN)
+        time.sleep(4)
         cls.driver.get('http://127.0.0.1:8000/')
 
     def test_post(self):
