@@ -1,7 +1,6 @@
-#setuptools
-#wheel
+setuptools
+wheel
 Django~=2.2.4
-#psycopg2==2.8.4
 gunicorn
-#django-heroku
+django-heroku
 selenium

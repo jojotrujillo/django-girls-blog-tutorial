@@ -9,3 +9,5 @@ venv
 .DS_Store
 *_local.py
 db.sqlite3
+tests.py
+selenium_tests
