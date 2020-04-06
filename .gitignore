@@ -2,7 +2,12 @@
 *.pyc
 *~
 /.idea
+/.vs
 __pycache__
 venv
 /static
 .DS_Store
+*_local.py
+db.sqlite3
+tests.py
+selenium_tests
